@@ -35,6 +35,17 @@ Business owners can respond to reviews left by users.
 Admins have access to manage business listings and reviews.
 
 
+
+INSTALLATION AND SETUP INSTRUCTIONS :-
+1. git clone https://github.com/aayushkr99/restaurant-listing.git
+2. cd restaurant-listing/
+3. git checkout remotes/origin/develop
+4. npm install
+5. node server.js
+
+
+
+
 API DOCUMENTATION :-
 
 *AUTHENTICATION ENDPOINTS*:---
