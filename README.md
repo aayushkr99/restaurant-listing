@@ -37,36 +37,49 @@ Admins have access to manage business listings and reviews.
 
 API DOCUMENTATION :-
 
-Authentication Endpoints:
+*AUTHENTICATION ENDPOINTS*:---
 
 POST /api/user/auth/register: Register a new user.
+
 POST /api/user/auth/login: Log in and generate a JWT token.
 
 
-Business Listing Endpoints:
+*BUSINESS LISTING ENDPOINTS*:---
 
 GET /api/business/business-listings: Get all business listings.
+
 GET /api/business/business-listings/:id: Get a single business listing by ID.
+
 POST /api/business/business-listings: Create a new business listing.
+
 PUT /api/business/business-listings/:id: Update an existing business listing.
+
 DELETE /api/business/business-listings/:id: Delete a business listing.
 
 
-Review Endpoints:
+*REVIEW ENDPOINTS*:---
 
 GET /api/user/reviews: Get all reviews.
+
 GET /api/user/reviews/:id: Get a single review by ID.
+
 POST /api/user/reviews: Create a new review.
+
 PUT /api/user/reviews/:id: Update an existing review.
+
 DELETE /api/user/reviews/:id: Delete a review.
 
 
-Booking Endpoints:
+*BOOKING ENDPOINTS*:---
 
 POST /api/book/bookings: Create a new booking.
+
 GET /api/book/bookings: Get all bookings.
+
 GET /api/book/bookings/:id: Get a single booking by ID.
+
 PUT /api/book/bookings/:id: Update an existing booking.
+
 DELETE /api/book/bookings/:id: Cancel a booking.
 
 For detailed API documentation, refer to the API Documentation section.
