@@ -20,6 +20,6 @@ router.get('/bookings/:id',authenticateToken, bookingController.getBookingById);
 router.put('/bookings/:id',authenticateToken, bookingController.updateBooking);
 
 // Cancel a booking
-router.put('/bookings/:id/cancel',authenticateToken, bookingController.cancelBooking);
+router.delete('/bookings/:id',authenticateToken, bookingController.cancelBooking);
 
 module.exports = router;
